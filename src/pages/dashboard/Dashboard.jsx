@@ -21,15 +21,15 @@ class dashboard extends Component {
                                 caldendare
                             </div>
                         </div>
-                        <div className="market">
+                        <Grid md={12} className="market">
                             <h2>MARKET INSIGHT</h2>
                             <div className="help">
                                 <img src={help} alt="lamp" /> 
                                 <a href="#">Click here for help</a>
                                 <ChevronUp />
                             </div>
-                        </div>
-                        <Grid xs={3} className='cart'>
+                        </Grid>
+                        <Grid md={3} className='cart'>
                             <div className="title">
                                 Sales Turnover
                                 <MoreVertical />
@@ -46,6 +46,23 @@ class dashboard extends Component {
                                 </div>
                                 <img src={sales} alt="sales" />
                             </div>
+                        </Grid>
+                        <Grid container spacing={2}>
+                            <Grid md={6} item>
+                                <div className="wrap-card">
+                                    <div className="title">AVERAGE PURCHASE VALUE <MoreVertical /></div>
+                                </div>
+                            </Grid>
+                            <Grid md={3} item>
+                                <div className="wrap-card">
+                                    <div className="title">BEST SELLING SKU <MoreVertical /></div>
+                                </div>
+                            </Grid>
+                            <Grid md={3} item>
+                                <div className="wrap-card">
+                                    <div className="title">TOP COMPETITOR SKU <MoreVertical /></div>
+                                </div>
+                            </Grid>
                         </Grid>
                     </div>
                 </div>
