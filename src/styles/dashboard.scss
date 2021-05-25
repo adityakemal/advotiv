@@ -1,0 +1,57 @@
+.dashboard{
+    padding: 0 !important;
+    min-height: 100vh;
+    background-color:#F7F7F7;
+    .content{ 
+        display: flex;
+        .section{
+            width: 100%;
+            padding: 31px 24px;
+            .header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 31px;
+                h1{
+                    font-size: 40px;
+                    color: #707070C4;
+                }
+            }
+            .market{
+                height: 48px;
+                padding: 0 16px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #37B04C;
+                border-radius: 2px;
+                margin-bottom: 16px;
+                h2{
+                    font-size: 20px;
+                    color: white;
+                    margin: 0;
+                }
+                .help{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    img{
+                        width: 20px;
+                    }
+                    a{
+                        margin-left: 4px;
+                        font-size: 14px;
+                        color: white;
+                    }
+                    svg{
+                        margin-left: 16px;
+                        color: white;
+                    }
+                }
+            }
+            .cart{
+                background-color: yellowgreen;
+            }
+        }
+    }
+}

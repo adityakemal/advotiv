@@ -1,0 +1,54 @@
+nav{
+    position: sticky;
+    z-index: 1;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 32px;
+    background-color: white;
+    flex-wrap: wrap;
+    .logo{
+        display: flex;
+        align-items: flex-end;
+        color : #5B5B5B;
+        .biglogo{
+            height: 32px;
+            margin-right: 8px;
+        }
+        span{
+            font-size: 11px;
+            margin-right: 8px;
+        }
+        .mini-logo{
+            
+            height: 18px;
+        }
+    }
+    .menus{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        .user{
+            color: #727272;
+            p{
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+            span{
+                font-size:10px ;
+            }
+        }
+        .profile{
+            margin-left: 16px;
+            height: 32px;
+            width: 32px;
+        }
+        .logout{
+            margin-left: 22px;
+            height: 15px;
+            width: 15px;
+        }
+    }
+}
