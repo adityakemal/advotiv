@@ -137,7 +137,7 @@ class dashboard extends Component {
                         <Grid container spacing={2}>
                             <Grid xs={12} sm={12} md={6} item>
                                 <div className="wrap-card">
-                                    <div className="title">AVERAGE PURCHASE VALUE <MoreVertical /></div>
+                                    <div className="title">AVERAGE PURCHASE VALUE <div className="filterchart"><div className="last6">Last 6 Month <ChevronDown /> </div> <MoreVertical /></div> </div>
                                     <Chart data={this.state.data}/>
                                 </div>
                             </Grid>
