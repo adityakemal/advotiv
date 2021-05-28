@@ -13,7 +13,7 @@ class Navbar extends Component {
                 </div>
                 <div className="menus">
                     <div className="user">
-                        <p>Username</p>
+                        <p>Kemal Aditya Z</p>
                         <span>Company name</span>
                     </div>
                     <a href="/">

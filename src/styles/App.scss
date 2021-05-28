@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 // global css 
 p{
   margin-top: 0;
@@ -6,6 +7,9 @@ h1{
   margin-top: 0;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif !important;
+}
 @import './navbar.scss';
 @import './sidenav.scss';
 @import './dashboard.scss';
